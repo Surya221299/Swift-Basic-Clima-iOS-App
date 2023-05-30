@@ -1,54 +1,26 @@
+# Swift Basic - Clima iOS App
+Clima app who fetch live weather data from API who will shown in UI and described using icon image based on condition cloud.sun/cloud.rain or etc. 
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+_***App demo ???? App**_
 
-#  Clima
+![Simulator Screen Recording - iPhone 11 - 2023-05-13 at 20 17 51](https://github.com/Surya221299/Swift-Basic-Clima-iOS-App/assets/60531747/7769d812-93f0-4479-bafd-8272f31eac52)
 
-## Our Goal
+## **Development Step by Step**
+•	Learn and working with **Dark Mode** using **Vector Assets.**
+•	Connect all UI Elements into our code like IBOutlet such as **UIImageView, UILabel, UITextView,** and IBAction such as Location Button and Search button.
+•	Implement **Protocol and Delegates design pattern** to our code.
+•	Make **HTTP request with URLSession using API** to get current weather data.
+•	Create WeatherModel class and update the UI using **DispatchQueue.**
+•	Using **Extensions and Protocols** to refactor the ViewController.
+•	Using **CoreLocation** to get Location Data.
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+## **What have I Learned**
+•	**How to create a dark-mode enabled app and use vector assets.**
+•	**Learn to use the UITextField to get user input.**
+•	**Learn about swift protocols and the Delegate Design Patern.**
+•	**Learn to work with API’s by making HTTP requests with URL’s.**
+•	**Learn what is Closures, Extensios and how to use it.**
+•	**Parse JSON with the native JSONDecoder.**
+•	**Learn to use Core Location to get the current GPS data.**
 
-
-## What you will create
-
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
-
-## What you will learn
-
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
-
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+>This is a project From Udemy iOS & Swift - The Complete iOS App Development Bootcamp by Dr. Angela Yu, check out the full course at w https://www.udemy.com/course/ios-13-app-development-bootcamp/
